@@ -8,7 +8,7 @@ library(Hmisc)
 library(gridExtra)
 library(corrgram)
 options(scipen = 20)
-dir_kate <- "/Users/egorufimtsev/Dropbox/kate_termpaper"
+dir_kate <- "~/Dropbox/kate_termpaper"
 setwd(dir_kate)
 dir_graphs <- file.path(dir_kate, "graphs")
 dir.create(dir_graphs, showWarnings = F)
